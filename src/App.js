@@ -3,6 +3,7 @@ import './App.scss';
 import NavigationBar from './components/NavigationBar';
 import Footer from './components/Footer';
 import TodoList from './components/TodoList';
+import CreateTodo from './components/CreateTodo';
 
 function App() {
   // HARDCODED! - Dummy Data
@@ -48,6 +49,7 @@ function App() {
     <>
       <NavigationBar />
       <TodoList todos={todos} onDelete={deleteTodo} onToggle={toggleCompleted} />
+      <CreateTodo onCreate={createTodo} />
       <Footer />
     </>
   );
