@@ -10,16 +10,19 @@ function App() {
     {
       completed: false,
       text: 'Meeting at 2',
+      xp: 15,
       id: 1
     },
     {
       completed: false,
       text: 'Drink Water!',
+      xp: 15,
       id: 2
     },
     {
       completed: true,
       text: 'Learn HTML',
+      xp: 15,
       id: 3
     }
   ]);
